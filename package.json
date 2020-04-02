@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Code style handbook for software developers",
   "main": "index.js",
+  "repository": {
+    "type": "Git",
+    "url": "https://github.com/cmstead/code-style.git"
+  },
   "scripts": {
     "build": "node ./node_modules/booklisp/index.js ./source/index.md manuscript.md"
   },
