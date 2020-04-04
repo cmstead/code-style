@@ -100,6 +100,48 @@ Better yet:
 `const theFireIsBurning = true;`
 
 Each of these forms reduces the noise in your code, and amplifies the meaning of the variable in question.
+
+#### Prefer Full-Word Names ####
+
+At one point, languages like C had a variable name character limit of 31. Such constraints are not common in modern languages. When creating variable names, prefer using full words instead of abbreviations or acronyms.
+
+Instead of
+
+`const maxNumBytes = 30`
+`const minUmbrlsStock = 5`
+
+Use full words to communicate your meaning.
+
+`const maximumNumberOfBytes = 30`
+`const minimumUmbrellasStocked = 5`
+
+#### Use Acronyms When They Are More Common Than The Full Name ####
+
+Some acronyms are actually more common than their full-word name. Instead of typing out all of the words, prefer the acronym as it will provide more clarity to the reader.
+
+Instead of
+
+`let selfContainedUnderwaterBreathingApparatusAirTanksCount = 10`
+
+prefer
+
+`let scubaAirTanksCount = 10`
+
+#### Avoid Single-Letter Variable Names ####
+
+Rather than using variable names such as `r`, `s`, or `g`, prefer to declare what the value actually is. This kind of variable naming has become common in lambda expressions and often suppresses understanding and context building.
+
+Instead, opt for words to describe what is being acted upon.
+
+```javascript
+records.map(record => record.id);
+songs.filter(song => song.name.length < 15);
+const gongStriker = gong => gong.strike();
+```
+
+#### When Using Single-Letter Names, Follow Common Convention ####
+
+
     
 
 ### Events, Actions, and Behaviors ###
