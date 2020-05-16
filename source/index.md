@@ -8,5 +8,6 @@
 (table-of-contents
     (chapter "./chapters/authoring-code/index.md")
     (chapter "./chapters/variables/index.md")
+    (chapter "./chapters/expressions/index.md")
 )
 /bl-->

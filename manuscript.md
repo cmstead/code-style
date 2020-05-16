@@ -6,7 +6,8 @@
 ## Table Of Contents ##
 
 - [Chapter 1: Authoring Code](#user-content-authoring-code)
-- [Chapter 2: Variables](#user-content-variables)
+- [Chapter 2: Variables, Parameters, and Constants](#user-content-variables,-parameters,-and-constants)
+- [Chapter 3: Expressions](#user-content-expressions)
 
 ## Authoring Code ##
 
@@ -64,7 +65,7 @@ I hope to offer some answers for the naming concern. The other two are left as a
     
     
 
-## Variables ##
+## Variables, Parameters, and Constants ##
 
 
 ### Variables ###
@@ -154,6 +155,11 @@ const gongStriker = gong => gong.strike();
 
 
     
+    
+
+## Expressions ##
+
+(subsection "./sections/creating-meaning.md")
     
 
 <!-- GENERATED DOCUMENT! DO NOT EDIT! -->
